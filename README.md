@@ -2,34 +2,23 @@
 
 ## Overview
 
-This exercise will have the candidate build a site navigation driven by an AJAX request.
+This exercise will have the intern build a site navigation driven by an AJAX request.
 
 Here are the guidelines for this exercise, please follow closely:
 
 * No javascript frameworks or libraries (e.g. jQuery, Angular, React).
 * CSS, not pre-Compilers (LESS, SASS) or mixin libraries (Compass, Bourbon, Neat, Foundation, etc.)
-* Chrome compliance is all that's required, all functions and features available in Chrome are in play.
-* Code must run after the following command, please ensure your code runs as you expect it to from a fresh checkout with these commands before submission.
+* Chrome compliance is all that's required.
+* Code must run after the following command.
 * Page should look good across desktop devices.
 
 ```
 $ npm i && npm start
 ```
 
-Nice to haves (things that we look for):
+Nice to haves:
 
 * Adherence to accessibility standards
-
-At a high level the navigation will have two main states:
-
-* \>= 768px: Desktop. The nav will display as a horizontal nav. Top level nav items will display sub-nav items when clicked. No hamburger will be shown.
-
-## Version
-0.1.0
-
-## Files
-
-* server.js - node.js server that will host the site and provie the api to construct the nav
 
 ## API
 
@@ -40,15 +29,29 @@ At a high level the navigation will have two main states:
 ###Requirements
 * Node.js and npm (You get both when you <a href="https://docs.npmjs.com/getting-started/installing-node">install Node.js</a>.)
 
-###Install the exercise locally
+###Install the project locally
 ```
 git clone https://github.com/felipevila/basic-fe-challenge.git
-cd NavExercise
+cd basic-fe-challenge
 npm install
 npm start
 ```
 
 ## Design Specifications
+
+### Measurements
+
+Measurements are specified in pixels. Dimensions are fluid unless specified.
+
+### Interactions
+
+* On hover, Primary Navigation reverses color (white/orange).
+* On click, if item contains a URL, Primary Navigation navigates to a new page.
+* On click, if item contains other items, Secondary Navigation appears
+* Menu appears containing Secondary Navigation.
+* Translucent mask appears over content, behind menu.
+* On click, Secondary navigates to a new page.
+* On click outside of menu, menu and mask are hidden.
 
 ### Typography
 
@@ -62,23 +65,7 @@ npm start
 
 ### Color
 
-* **Magenta** #ec008c
+* **Endava Orange** #ff3f10
 * **Light Gray** #eee
 * **Translucent Black** rgba(0, 0, 0, 0.5)
 
-### Measurements
-
-Measurements are specified in pixels. Dimensions are fluid unless specified.
-
-### Interactions
-
-#### Desktop
-
-* On hover, Primary Navigation reverses color (white/magenta).
-* On click, if item contains a URL, Primary Navigation navigates to a new page.
-* On click, if item contains other items, Secondary Navigation appears (see Desktop, Secondary Navigation).
-* Menu appears containing Secondary Navigation.
-* Translucent mask appears over content, behind menu.
-* On hover in, Secondary Navigation changes color (magenta/light gray).
-* On click, Secondary navigates to a new page.
-* On click outside of menu, menu and mask are hidden.
