@@ -2,12 +2,12 @@
 
 ## Overview
 
-This exercise will have the intern build a site navigation driven by an AJAX request.
+This challenge will have the intern build a site navigation driven by an AJAX request.
 
-Here are the guidelines for this exercise, please follow closely:
+Here are the guidelines for this challenge, please follow closely:
 
 * No javascript frameworks or libraries (e.g. jQuery, Angular, React).
-* CSS, not pre-Compilers (LESS, SASS) or mixin libraries (Compass, Bourbon, Neat, Foundation, etc.)
+* Only CSS, not pre-Compilers (LESS, SASS) or mixin libraries (Compass, Bourbon, Neat, Foundation, etc.)
 * Chrome compliance is all that's required.
 * Code must run after the following command.
 * Page should look good across desktop devices.
@@ -26,10 +26,10 @@ Nice to haves:
 
 ## Get Started
 
-###Requirements
+### Requirements
 * Node.js and npm (You get both when you <a href="https://docs.npmjs.com/getting-started/installing-node">install Node.js</a>.)
 
-###Install the project locally
+### Install the project locally
 ```
 git clone https://github.com/felipevila/basic-fe-challenge.git
 cd basic-fe-challenge
@@ -38,6 +38,9 @@ npm start
 ```
 
 ## Design Specifications
+
+### Prototype
+https://invis.io/8AFZRC7Z7DR
 
 ### Measurements
 
