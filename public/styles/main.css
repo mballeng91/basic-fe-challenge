@@ -6,7 +6,7 @@ body{
 
 .header{
     background: #ff3f10;
-    color: #eee;
+    color: white;
     font-size: 21px;
     font-weight: bold;
     height: 80px;
@@ -16,7 +16,8 @@ body{
 a{
     display: inline-block;
     width: 7%;
-    padding-top: 25px;
+    padding-top: 23px;
+    padding-bottom: 25px;
     padding-left: 20px;
     height: 80px;
     text-align: center;
