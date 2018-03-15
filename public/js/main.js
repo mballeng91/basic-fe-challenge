@@ -3,9 +3,7 @@ function myFunction() {
     console.log("Hello World");
 }
 
-function 
-
 function careerEvent(){
-    let body = this.document.getElementById("body");
-    body.setNewProperties();
+    document.getElementById("second_div").style.color = "#6e6e6e";
+    document.getElementById("second_div").style.background = "#f4f4f4";
 }

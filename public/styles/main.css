@@ -9,7 +9,7 @@ body{
     color: white;
     font-size: 21px;
     font-weight: bold;
-    height: 80px;
+    height: 85px;
     margin:0px;
 }
 
@@ -43,7 +43,7 @@ a{
 .container{
     position: relative;
     text-align: center;
-    color: #eee;
+    color: white;
 }
 
 .centered{
@@ -52,7 +52,6 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
     font: bold 120px/132px Oswald;
-    margin-bottom: 300px;
     border-bottom: 10px solid #ff3f10;
 }
 
