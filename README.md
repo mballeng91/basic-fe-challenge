@@ -31,7 +31,8 @@ Nice to haves:
 
 ### Install the project locally
 ```
-git clone https://github.com/felipevila/basic-fe-challenge.git
+git clone -v https://mceron@bitbucket.endava.com/scm/bd/html_javascript_internship.git
+#git clone https://github.com/felipevila/basic-fe-challenge.git
 cd basic-fe-challenge
 npm install
 npm start

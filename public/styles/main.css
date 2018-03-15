@@ -1,1 +1,55 @@
 /* Styles here! */
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.header{
+    background: #ff3f10;
+    color: #eee;
+    font-size: 21px;
+    font-weight: bold;
+    height: 80px;
+    margin:0px;
+}
+
+a{
+    display: inline-block;
+    width: 8%;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font:  bold 25px/48px Oswald
+
+}
+.a_logo{
+    margin-right: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.glass{
+    width: 45px;
+    heigth: 55px;
+    margin-left: 220px;
+}
+.background_properties{
+    width:100%;
+    filter: brightness(15%);
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: #eee;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: bold 120px/132px Oswald;
+    margin-bottom: 300px;
+    border-bottom: 10px solid #ff3f10;
+}
