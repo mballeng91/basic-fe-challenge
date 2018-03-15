@@ -15,9 +15,10 @@ body{
 
 a{
     display: inline-block;
-    width: 8%;
-    padding-top: 20px;
-    padding-left: 20px;
+    width: 9%;
+    padding: auto;
+    height: 80px;
+    margin-top: 0px;
     text-align: center;
     font:  bold 25px/48px Oswald
 
@@ -52,4 +53,10 @@ a{
     font: bold 120px/132px Oswald;
     margin-bottom: 300px;
     border-bottom: 10px solid #ff3f10;
+}
+
+a:hover{
+    background: #eee;
+    color: #ff3f10;
+
 }
