@@ -45,24 +45,26 @@ body{
     color: white;
     font-size: 21px;
     font-weight: bold;
-    margin:0px;
+    margin:0;
     height: 80px;
     position:relative;
-
 }
 .main-menu li {
     list-style-type: none;
     display: inline-block;
-    height: 80px;
+    margin-left: 3%;
+}
+.main-menu ul{
+    margin:0;
 }
 .main-menu li a {
     color: white;
     text-decoration: none;
     text-align: center;
     font:  bold 25px/48px Oswald;
-    height: 80px;
-    margin:auto;
-    padding: 24px;
+    height: 100%;
+    margin-top: 0px;
+    padding: 14px;
 }
 .main-menu li a:hover{
     background: white;
