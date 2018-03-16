@@ -10,45 +10,61 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 <body>
-<div>
-    <h1 class="header">
-        <div style="height:80px">
+
+
+
+    <nav class="main-menu">
+        <ul>
+            <li>
                 <a onclick="myFunction(); loadDoc()" class="a_logo">
-                    <img src="../images/logo.png">
+                    <img src="./images/logo.png">
                 </a>
-                <a type="button">
-                     About
-                </a>
-                <a>
-                    Projects
-                </a>
-                <a onclick="careerEvent()">
-                    Careers
-                </a>
-                <a>
-                    News
-                </a>
-                <a>
-                    Events
-                </a>
-                <a>
-                    Contact
-                </a>
-                <a>
-                    <img src="../images/glass.png" class="glass">
-                </a>
+            </li>
 
 
-        </div>
-    </h1>
-</div>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Projects</a>
+            </li>
+            <li class="career-menu" onclick="careerEvent(); toggleMenu()">
+                <a href="#">Careers</a>
+                <ul id="menu-box" class="the_menu">
+                    <li>Applications Management</li>
+                    <li>Development</li>
+                    <li>Testing</li>
+                    <li>Project Management</li>
+                    <li>Security</li>
+                    <li>Bussiness Operations</li>
+                    <li>Analysis and architecture</li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">News</a>
+            </li>
+            <li>
+                <a href="#">Events</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+
+
+
+
+
+
+        <a class="glass">
+            <img src="../images/glass.png" >
+        </a>
+    </nav>
+
 <div class="container" id="second_div">
     <img src="../images/background-image2.jpg" class="background_properties">
     <p class="centered">Thoughtful, Open, Adaptable, Smart, Trusted.</p>
 </div>
 <script type="text/javascript" src="/js/main.js"></script>
-
-
-
 </body>
 </html>

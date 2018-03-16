@@ -4,36 +4,31 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-.header{
+nav{
     background: #ff3f10;
     color: white;
     font-size: 21px;
     font-weight: bold;
-    height: 85px;
     margin:0px;
-}
-
-a{
-    display: inline-block;
-    width: 7%;
-    padding-top: 23px;
-    padding-bottom: 25px;
-    padding-left: 20px;
     height: 80px;
-    text-align: center;
-    font:  bold 25px/48px Oswald
-
+    position:relative;
 }
+
 .a_logo{
-    margin-right: 200px;
-    padding-top: 20px;
-    padding-left: 20px;
+    display: block;
+    padding-top: 14px;
+    padding-left: 24px;
+    position: relative;
 }
 
 .glass{
-    width: 45px;
-    heigth: 55px;
-    margin-left: 220px;
+    display: block;
+    padding-top: 14px;
+    padding-left: 24px;
+    width: 10px;
+    right:0;
+    top:0;
+    position:absolute;
 }
 .background_properties{
     width:100%;
@@ -47,7 +42,7 @@ a{
 }
 
 .centered{
-    position: absolute;
+    position: initial;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -55,8 +50,37 @@ a{
     border-bottom: 10px solid #ff3f10;
 }
 
-a:hover{
-    background: white;
-    color: #ff3f10;
+.main-menu {
+    position: relative;
+}
+.main-menu li {
+    list-style-type: none;
+    display: inline-block;
 
 }
+.main-menu li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font:  bold 25px/48px Oswald
+    height: 80px;
+    margin:auto;
+    padding: 24px;
+
+}
+.main-menu li a:hover{
+    background: white;
+    color: #ff3f10;
+}
+.career-menu{
+    font:  bold 16px/48px Oswald;
+    padding-top:0px;
+    font-weight: 600;
+    list-style-type: none;
+    width: 200px;
+    margin-left:550px;
+    overflow: visible;
+    min-width:0px;
+}
+
