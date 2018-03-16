@@ -22,7 +22,7 @@ function loadDoc() {
 
 
 function toggleMenu() {
-    var menuBox = document.getElementById('menu-box');
+    var menuBox = document.getElementById('career-menu');
     if(menuBox.style.display == "block") { // if is menuBox displayed, hide it
         menuBox.style.display = "none";
     }
