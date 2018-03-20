@@ -74,7 +74,7 @@ body{
     color: white;
     text-decoration: none;
     font:  bold 25px/48px Oswald;
-    padding: 23px 27px;
+    padding: 22px 27px;
 }
 .main-menu li a:hover{
     background: white;
@@ -86,13 +86,37 @@ body{
 }
 .career-menu{
     font:  bold 16px/48px Oswald;
-    padding-top:0px;
     font-weight: 600;
     list-style-type: none;
     width: 200px;
-    margin-left:550px;
     overflow: visible;
     min-width:0px;
     display:none;
+    background: white;
+    color: black;
+    position: absolute;
+    top: 80px;
+    padding-left: 500px;
+    z-index: 2;
 }
 
+.footer{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navigator{
+    position:static;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.overlay{
+    display: block;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    position: fixed;
+}

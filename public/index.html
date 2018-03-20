@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 <body>
-    <nav class="main-menu">
+    <nav class="main-menu" id="navigator">
         <ul>
             <li>
                 <a onclick="myFunction(); loadDoc()" class="a_logo">
@@ -24,8 +24,18 @@
                 <a href="#">Projects</a>
             </li>
             <li>
-                <a>
+                <a onclick="toggleMenu(); applyFilter()">
                     Careers
+                    <ul id="menu-box2" class="career-menu">
+                        <li>Applications Management</li>
+                        <li>Development</li>
+                        <li>Testing</li>
+                        <li>Project Management</li>
+                        <li>Security</li>
+                        <li>Bussiness Operations</li>
+                        <li>Analysis and architecture</li>
+                    </ul>
+
                 </a>
                 <ul id="menu-box" class="career-menu">
                     <li>Applications Management</li>
@@ -55,11 +65,15 @@
     </nav>
 
 <div id="background-div">
-    <img src="../images/background-image2.jpg" class="image-properties">
+    <div class="overlay"></div>
+    <img src="../images/background-image2.jpg"  id="the-image">
     <div class="centered-text">
-        <p >Thoughtful, Open, Adaptable, Smart, Trusted.</p>
+        <p id="quote">Thoughtful, Open, Adaptable, Smart, Trusted.</p>
     </div>
 </div>
+    <div class="footer">
+        Hola
+    </div>
 <script type="text/javascript" src="/js/main.js"></script>
 </body>
 </html>
